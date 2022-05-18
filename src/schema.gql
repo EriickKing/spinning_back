@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type User {
+  id: ID!
+  nameUser: String
+  phoneUser: String
+  emailUser: String
+  passwordUser: String
+  inscriptionUser: Boolean!
+  statusUser: Float!
+}
+
+type Query {
+  User: User!
+}
